@@ -63,6 +63,7 @@ nav {
   margin: 0 auto;
   background: #191919;
   backdrop-filter: blur(10px);
+  
 }
 
 
