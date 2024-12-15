@@ -153,6 +153,11 @@ const email = ref('')
         flex-direction: column;
     }
 
+    .hero-container::before{
+        width: 700px;
+        height: 700px;
+    }
+
     .email-input,
     .submit-button {
         width: 100%;

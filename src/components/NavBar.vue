@@ -18,8 +18,9 @@
       <a href="#">How It Works</a>
       <a href="#">Testimonials </a>
       <a href="#">FAQs</a>
+      <button>Login</button>
+
     </div>
-    <button>Login</button>
 
 
     <button class="hamburger" @click="toggleMobileLinks">
@@ -54,17 +55,18 @@ nav {
   position: sticky;
   width: 100%;
   padding: 20px 32px;
-  justify-content: space-between; /* Space between items */
+  justify-content: space-between;
+  /* Space between items */
   align-items: center;
   z-index: 99999999;
   max-width: 1600px;
-    margin: 0 auto;
+  margin: 0 auto;
   background: #191919;
   backdrop-filter: blur(10px);
 }
 
 
-nav h2{
+nav h2 {
   color: #fff;
 }
 
@@ -88,7 +90,7 @@ nav .links a:hover {
   color: #fff;
 }
 
-nav  button {
+nav button {
   display: flex;
   height: 38px;
   padding: 10px 40px;
@@ -120,6 +122,10 @@ nav .hamburger {
 
   nav .links {
     display: none;
+  }
+
+  nav .hamburger{
+    color: #fff;
   }
 
   .backdrop {
