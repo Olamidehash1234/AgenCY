@@ -7,7 +7,7 @@
     <a href="#">How It Works</a>
     <a href="#">Testimonials </a>
     <a href="#">FAQs</a>
-    <button class="signup-btn">Sign In</button>
+    <button class="signup-btn">Login</button>
   </div>
 
   <nav>
@@ -19,7 +19,7 @@
       <a href="#">Testimonials </a>
       <a href="#">FAQs</a>
     </div>
-    <button>Login</button>
+    <button class="nav-button">Login</button>
 
 
     <button class="hamburger" @click="toggleMobileLinks">
@@ -128,6 +128,10 @@ nav .hamburger {
     color: #fff;
   }
 
+  .nav-button{
+    display: none;
+  }
+
   .backdrop {
 
     background-color: rgba(0, 0, 0, 0.7);
@@ -151,8 +155,8 @@ nav .hamburger {
     padding: 40px;
     flex-direction: column;
     gap: 40px;
-    align-items: center;
-    background-color: #fff;
+    align-items: flex-start;
+    background-color: #121212;
   }
 
   .mobile-links-visible {
@@ -161,7 +165,7 @@ nav .hamburger {
   }
 
   .mobile-links a {
-    color: #121212;
+    color: #fff;
     font-size: 18px;
     font-weight: 600;
   }
@@ -174,11 +178,12 @@ nav .hamburger {
 
   .mobile-links .close {
     align-self: flex-end;
+    color: #fff;
   }
 
   .mobile-links .signup-btn {
     color: #fff;
-    background-color: #121212;
+    background-color: #313030;
 
     display: flex;
     padding: 12px 40px;

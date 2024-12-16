@@ -140,6 +140,13 @@ const email = ref('')
     background-color: #d4ff40;
 }
 
+@media (max-width: 1024px) {
+    .hero-container{
+        min-height: 60vh;
+    }
+
+}
+
 @media (max-width: 768px) {
     .title {
         font-size: 2.5rem;
