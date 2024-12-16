@@ -18,9 +18,8 @@
       <a href="#">How It Works</a>
       <a href="#">Testimonials </a>
       <a href="#">FAQs</a>
-      <button>Login</button>
-
     </div>
+    <button>Login</button>
 
 
     <button class="hamburger" @click="toggleMobileLinks">
