@@ -2,17 +2,19 @@
 <template>
     <div>
       <Hero />
+      <second />
     </div>
   </template>
   
   <script>
-//   import Navbar from '../components/Navbar.vue';
 import Hero from '../Home/Hero.vue'  
+import second from '../Home/second.vue'
 
   export default {
     name: 'MainLayout',
     components: {
-      Hero
+      Hero,
+      second
     },
     data() {
       return {
