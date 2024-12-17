@@ -15,7 +15,7 @@
                     <!-- Card 1 -->
                     <div class="card">
                         <div class="icon-container">
-                            <div class="icon">&#9842;</div>
+                            <div class="icon"><img src="../../assets/icons/Sectionthree/share.png" alt=""></div>
                         </div>
                         <h4>Share Your Vision</h4>
                         <p>Select a plan and tell us about your design project - we are ready to listen and bring it to life</p>
