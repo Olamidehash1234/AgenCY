@@ -15,7 +15,7 @@
                     <!-- Card 1 -->
                     <div class="card">
                         <div class="icon-container">
-                            <div class="icon">&#9842;</div>
+                            <div class="icon"><img src="../../assets/icons/Sectionthree/affordable.png" alt=""></div>
                         </div>
                         <h4>Affordable solution</h4>
                         <p>Receive top-quality design services without the high price tag.</p>
@@ -23,28 +23,28 @@
 
                     <!-- Card 2 -->
                     <div class="card">
-                        <div class="icon">&#9788;</div>
+                        <div class="icon"><img src="../../assets/icons/Sectionthree/design.png" alt=""></div>
                         <h4>Custom Design Solutions</h4>
                         <p>Our expertise ensures your vision becomes a reality.</p>
                     </div>
 
                     <!-- Card 3 -->
                     <div class="card">
-                        <div class="icon">&#8599;</div>
+                        <div class="icon"><img src="../../assets/icons/Sectionthree/grow.png" alt=""></div>
                         <h4>Scalable as You Grow</h4>
                         <p>We're prepared to adapt to your changing needs.</p>
                     </div>
 
                     <!-- Card 4 -->
                     <div class="card">
-                        <div class="icon">&#9881;</div>
+                        <div class="icon"><img src="../../assets/icons/Sectionthree/workflow.png" alt=""></div>
                         <h4>Integrated Workflow</h4>
                         <p>Effortlessly connect all your existing applications.</p>
                     </div>
 
                     <!-- Card 5 -->
                     <div class="card">
-                        <div class="icon">&#9882;</div>
+                        <div class="icon"><img src="../../assets/icons/Sectionthree/collaboration.png" alt=""></div>
                         <h4>Real-Time Collaboration</h4>
                         <p>
                             Work together effortlessly while staying connected to all your apps.

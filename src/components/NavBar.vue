@@ -111,7 +111,7 @@ nav button {
 nav .hamburger {
   display: none;
   align-items: flex-end;
-  /* background-color: yellow */
+  background-color: transparent;
 }
 
 .mobile-links {
