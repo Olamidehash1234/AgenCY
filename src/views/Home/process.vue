@@ -1,12 +1,12 @@
 <template>
     <main>
-        <section class="features mt-7">
+        <section class="features mt-5">
             <div class="content">
                 <!-- Heading -->
                 <div class="header">
-                    <h3 class="small-title">WHAT YOU'LL RECEIVE</h3>
+                    <h3 class="small-title">OUR WORK PROCESS</h3>
                     <h2 class="main-title">
-                        We solve the challenges that come with <br /> creative processes.
+                        Top-notch designs,<br> delivered at your doorstep.
                     </h2>
                 </div>
 
@@ -17,38 +17,22 @@
                         <div class="icon-container">
                             <div class="icon">&#9842;</div>
                         </div>
-                        <h4>Affordable solution</h4>
-                        <p>Receive top-quality design services without the high price tag.</p>
+                        <h4>Share Your Vision</h4>
+                        <p>Select a plan and tell us about your design project - we are ready to listen and bring it to life</p>
                     </div>
 
                     <!-- Card 2 -->
                     <div class="card">
-                        <div class="icon">&#9788;</div>
-                        <h4>Custom Design Solutions</h4>
-                        <p>Our expertise ensures your vision becomes a reality.</p>
+                        <div class="icon"><img src="../../assets/icons/Sectionthree/transformation.png" alt=""></div>
+                        <h4>Experience the transformation</h4>
+                        <p>We specialize in turning your ideas into exceptional, tailor-made designs</p>
                     </div>
 
                     <!-- Card 3 -->
                     <div class="card">
-                        <div class="icon">&#8599;</div>
-                        <h4>Scalable as You Grow</h4>
-                        <p>We're prepared to adapt to your changing needs.</p>
-                    </div>
-
-                    <!-- Card 4 -->
-                    <div class="card">
-                        <div class="icon">&#9881;</div>
-                        <h4>Integrated Workflow</h4>
-                        <p>Effortlessly connect all your existing applications.</p>
-                    </div>
-
-                    <!-- Card 5 -->
-                    <div class="card">
-                        <div class="icon">&#9882;</div>
-                        <h4>Real-Time Collaboration</h4>
-                        <p>
-                            Work together effortlessly while staying connected to all your apps.
-                        </p>
+                        <div class="icon"><img src="../../assets/icons/Sectionthree/donation.png" alt=""></div>
+                        <h4>Receive Continuous Support</h4>
+                        <p>We deliver innovative, high-quality design solutions that bring your vision to life .</p>
                     </div>
                 </div>
             </div>
@@ -63,10 +47,10 @@ export default {
 </script>
 
 <style scoped>
-/* Section Styles */
 .features {
     color: #fff;
     padding: 120px 1.5rem;
+    padding-top: 0;
     padding-bottom: 0;
     font-family: Arial, sans-serif;
 }
@@ -122,11 +106,11 @@ export default {
 }
 
 .icon {
-    font-size: 30px;
+    font-size: 40px;
     color: #b6ff00 !important;
-    margin-bottom: 1rem;
-    width: 50px;
-    height: 50px;
+    margin-bottom: 50px;
+    width: 70px;
+    height: 70px;
     display: flex;
     align-items: center !important;
     justify-content: center !important;
@@ -136,7 +120,7 @@ export default {
 
 .card h4 {
     font-size: 20px;
-    margin-bottom: 0.5rem;
+    margin-bottom: 20px;
     font-weight: 300;
 }
 

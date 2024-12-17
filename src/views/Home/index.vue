@@ -3,18 +3,21 @@
     <div>
       <Hero />
       <second />
+      <process />
     </div>
   </template>
   
   <script>
 import Hero from '../Home/Hero.vue'  
 import second from '../Home/second.vue'
+import process from '../Home/process.vue';
 
   export default {
     name: 'MainLayout',
     components: {
       Hero,
-      second
+      second,
+      process
     },
     data() {
       return {

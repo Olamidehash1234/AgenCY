@@ -30,7 +30,6 @@ const email = ref('')
 
 <style scoped>
 .hero-container {
-    min-height: 90vh;
     background-color: #0D0D0D;
     background-image: radial-gradient(circle at center,
             rgba(50, 50, 50, 0.3) 1px,
