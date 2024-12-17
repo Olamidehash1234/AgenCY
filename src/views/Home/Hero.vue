@@ -30,7 +30,6 @@ const email = ref('')
 
 <style scoped>
 .hero-container {
-    min-height: 90vh;
     background-color: #0D0D0D;
     background-image: radial-gradient(circle at center,
             rgba(50, 50, 50, 0.3) 1px,
@@ -138,6 +137,13 @@ const email = ref('')
 
 .submit-button:hover {
     background-color: #d4ff40;
+}
+
+@media (max-width: 1024px) {
+    .hero-container{
+        min-height: 60vh;
+    }
+
 }
 
 @media (max-width: 768px) {

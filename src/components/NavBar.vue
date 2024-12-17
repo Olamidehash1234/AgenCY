@@ -1,17 +1,17 @@
 <template>
   <div class="mobile-links" :class="{ 'mobile-links-visible': isMobileLinksVisible }">
     <button class="close" @click="toggleMobileLinks">
-      <img src="/src/assets/icons/navbar/close.svg" alt="Close menu">
+      <!-- <img src="/src/assets/icons/navbar/close-icon.png" alt="Close menu"> -->
     </button>
     <a href="#">Features</a>
     <a href="#">How It Works</a>
     <a href="#">Testimonials </a>
     <a href="#">FAQs</a>
-    <button class="signup-btn">Sign In</button>
+    <button class="signup-btn">Login</button>
   </div>
 
   <nav>
-    <h2>Agency</h2>
+    <h2>Agen<span>cy</span></h2>
 
     <div class="links">
       <a href="#">Features</a>
@@ -19,11 +19,11 @@
       <a href="#">Testimonials </a>
       <a href="#">FAQs</a>
     </div>
-    <button>Login</button>
+    <button class="nav-button">Login</button>
 
 
     <button class="hamburger" @click="toggleMobileLinks">
-      <img src="/src/assets/icons/navbar/menu.svg" alt="Open menu">
+      <img src="/src/assets/icons/navbar/menu-burger.png" alt="Open menu">
     </button>
   </nav>
 </template>
@@ -54,8 +54,7 @@ nav {
   position: sticky;
   width: 100%;
   padding: 20px 32px;
-  justify-content: space-between;
-  /* Space between items */
+  justify-content: space-between !important;
   align-items: center;
   z-index: 99999999;
   max-width: 1600px;
@@ -90,17 +89,20 @@ nav .links a:hover {
   color: #fff;
 }
 
+span{
+  color: #DDFF00;
+  /* font-size: 34px; */
+}
+
 nav button {
   display: flex;
   height: 38px;
   padding: 10px 40px;
   justify-content: center;
   align-items: center;
-
+  background-color: #DDFF00;
   border-radius: 23px;
-  background: #C6DD31;
   box-shadow: 0px 4px 4px 0px rgba(18, 18, 18, 0.08);
-
   color: #272222;
   font-size: 16px;
   font-weight: 600;
@@ -108,7 +110,8 @@ nav button {
 
 nav .hamburger {
   display: none;
-  background-color: transparent;
+  align-items: flex-end;
+  /* background-color: yellow */
 }
 
 .mobile-links {
@@ -126,6 +129,16 @@ nav .hamburger {
 
   nav .hamburger{
     color: #fff;
+  }
+
+  .nav-button{
+    display: none;
+  }
+
+  nav button{
+    padding-top: 8px;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .backdrop {
@@ -151,8 +164,8 @@ nav .hamburger {
     padding: 40px;
     flex-direction: column;
     gap: 40px;
-    align-items: center;
-    background-color: #fff;
+    align-items: flex-start;
+    background-color: #121212;
   }
 
   .mobile-links-visible {
@@ -161,7 +174,7 @@ nav .hamburger {
   }
 
   .mobile-links a {
-    color: #121212;
+    color: #fff;
     font-size: 18px;
     font-weight: 600;
   }
@@ -173,12 +186,19 @@ nav .hamburger {
   }
 
   .mobile-links .close {
-    align-self: flex-end;
+    align-self: flex-end !important;
+    color: #fff !important;
+    margin-top: 40px;
   }
 
-  .mobile-links .signup-btn {
+  .mobile-links .close img{
+    width: 30px;
     color: #fff;
-    background-color: #121212;
+    /* background-color: #fff; */
+  }
+  .mobile-links .signup-btn {
+    color: #121212;
+    background-color: #C6DD31;
 
     display: flex;
     padding: 12px 40px;
