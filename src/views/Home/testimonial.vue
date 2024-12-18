@@ -129,7 +129,6 @@ const testimonials = reactive([
     padding: 1.5rem;
     border-radius: 18px;
     transition: transform 0.3s, box-shadow 0.3s;
-    /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); */
     border: 0.5px solid #40413f;
     display: flex;
     flex-direction: column;
