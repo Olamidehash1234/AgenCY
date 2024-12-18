@@ -18,7 +18,8 @@
                             <div class="icon"><img src="../../assets/icons/Sectionthree/share.png" alt=""></div>
                         </div>
                         <h4>Share Your Vision</h4>
-                        <p>Select a plan and tell us about your design project - we are ready to listen and bring it to life</p>
+                        <p>Select a plan and tell us about your design project - we are ready to listen and bring it to
+                            life</p>
                     </div>
 
                     <!-- Card 2 -->
@@ -95,6 +96,8 @@ export default {
     background-color: #222;
     padding: 32px;
     border-radius: 18px;
+    border: 0.5px solid #40413f;
+
     transition: transform 0.3s, box-shadow 0.3s;
     position: relative;
     justify-content: space-between;
@@ -134,7 +137,7 @@ export default {
 .card:nth-child(4),
 .card:nth-child(5) {
     grid-template-columns: 50% 50%;
-    
+
 }
 
 /* Responsive Design */
@@ -143,7 +146,7 @@ export default {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .small-title{
+    .small-title {
         margin-right: 20%;
         margin-left: 20%;
         margin-bottom: 15px;
@@ -159,11 +162,11 @@ export default {
 
 @media (max-width: 768px) {
 
-    .features{
+    .features {
         padding: 10px;
     }
 
-    .small-title{
+    .small-title {
         margin-right: 20%;
         margin-left: 20%;
         margin-bottom: 15px;
@@ -179,15 +182,15 @@ export default {
         margin-bottom: 0;
     }
 
-    .card{
+    .card {
         padding: 20px;
     }
 
-    .card h4{
+    .card h4 {
         font-size: 20px;
     }
 
-    .card p{
+    .card p {
         font-size: 18px;
     }
 }
