@@ -4,7 +4,7 @@
       <!-- <img src="/src/assets/icons/navbar/close-icon.png" alt="Close menu"> -->
     </button>
     <a href="#">Features</a>
-    <a href="#">How It Works</a>
+    <a href="#">About</a>
     <a href="#">Testimonials </a>
     <a href="#">FAQs</a>
     <button class="signup-btn">Login</button>
@@ -15,7 +15,7 @@
 
     <div class="links">
       <a href="#">Features</a>
-      <a href="#">How It Works</a>
+      <a href="#">About</a>
       <a href="#">Testimonials </a>
       <a href="#">FAQs</a>
     </div>
@@ -51,7 +51,7 @@ export default {
 <style scoped>
 nav {
   display: flex;
-  position: sticky;
+  position: sticky !important;
   width: 100%;
   padding: 20px 32px;
   justify-content: space-between !important;

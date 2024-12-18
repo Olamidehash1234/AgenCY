@@ -4,6 +4,7 @@
       <Hero />
       <second />
       <process />
+      <testimonial />
     </div>
   </template>
   
@@ -11,13 +12,15 @@
 import Hero from '../Home/Hero.vue'  
 import second from '../Home/second.vue'
 import process from '../Home/process.vue';
+import testimonial from '../Home/testimonial.vue'
 
   export default {
     name: 'MainLayout',
     components: {
       Hero,
       second,
-      process
+      process,
+      testimonial
     },
     data() {
       return {
