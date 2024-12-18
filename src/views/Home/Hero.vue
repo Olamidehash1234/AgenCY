@@ -14,7 +14,7 @@
             </p>
 
             <div class="form-container">
-                <input type="email" v-model="email" placeholder="mdaminurce@gmail.com" class="email-input">
+                <input type="email" v-model="email" placeholder="example@email.com" class="email-input">
                 <button class="submit-button">Submit Now</button>
             </div>
         </div>

@@ -39,7 +39,7 @@ const testimonials = reactive([
         title: "CEO of ChicBoutique",
         image: img1, 
         content:
-            "LandFree has been instrumental in transforming our online presence. Their team's expertise in web development and design resulted in a visually stunning and user-friendly e-commerce platform. Our online sales have skyrocketed, and we couldn't be happier.",
+            "AgenCY has been instrumental in transforming our online presence. Their team's expertise in web development and design resulted in a visually stunning and user-friendly e-commerce platform. Our online sales have skyrocketed, and we couldn't be happier.",
         date: "03 January 2024",
     },
     {
@@ -47,7 +47,7 @@ const testimonials = reactive([
         title: "Sales Director at CRM",
         image: img2,
         content:
-            "Our website was slow and buggy, costing us sales. LandFree fixed the code, optimized everything, and now it's blazing fast and converting like crazy. We're ecstatic!",
+            "Our website was slow and buggy, costing us sales. AgenCY fixed the code, optimized everything, and now it's blazing fast and converting like crazy. We're ecstatic!",
         date: "16 October 2024",
     },
     {
@@ -55,7 +55,7 @@ const testimonials = reactive([
         title: "CEO of Event Masters",
         image: img3, 
         content:
-            "LandFree developed a comprehensive booking and reservation system for our event management company. Their attention to detail and commitment to delivering a user-friendly platform was evident throughout the project.",
+            "AgenCY developed a comprehensive booking and reservation system for our event management company. Their attention to detail and commitment to delivering a user-friendly platform was evident throughout the project.",
         date: "10 July 2024",
     },
     {
@@ -63,7 +63,7 @@ const testimonials = reactive([
         title: "Founder of Dreams",
         image: img4,
         content:
-            "Our website was sluggish and full of glitches, causing us to lose sales. LandFree completely overhauled the code, optimized everything, and now it's lightning-fast and converting exceptionally well.",
+            "Our website was sluggish and full of glitches, causing us to lose sales. AgenCY completely overhauled the code, optimized everything, and now it's lightning-fast and converting exceptionally well.",
         date: "22 June 2024",
     },
     {
@@ -71,7 +71,7 @@ const testimonials = reactive([
         title: "CEO of Event Masters",
         image: img5, 
         content:
-            "LandFree has played a pivotal role in revolutionizing our online presence. Their team's proficiency in web development and design led to a visually impressive and easy-to-navigate e-commerce platform.",
+            "AgenCY has played a pivotal role in revolutionizing our online presence. Their team's proficiency in web development and design led to a visually impressive and easy-to-navigate e-commerce platform.",
         date: "03 November 2024",
     },
     {
@@ -79,7 +79,7 @@ const testimonials = reactive([
         title: "Sales Director at CRM",
         image: img6, 
         content:
-            "Our website was slow and buggy, costing us sales. LandFree fixed the code, optimized everything, and now it's blazing fast and converting like crazy. We're ecstatic!",
+            "Our website was slow and buggy, costing us sales. AgenCY fixed the code, optimized everything, and now it's blazing fast and converting like crazy. We're ecstatic!",
         date: "16 February 2024",
     },
 ]);
@@ -128,10 +128,16 @@ const testimonials = reactive([
     background-color: #1c1c1c;
     padding: 1.5rem;
     border-radius: 18px;
+    transition: transform 0.3s, box-shadow 0.3s;
     /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); */
     border: 0.5px solid #40413f;
     display: flex;
     flex-direction: column;
+}
+
+.testimonial-card:hover{
+    transform: translateY(-2px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
 }
 
 .profile {
