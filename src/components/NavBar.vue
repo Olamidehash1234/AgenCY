@@ -11,7 +11,7 @@
   </div>
 
   <nav>
-    <h2>Agen<span>cy</span></h2>
+    <h2>Agen<span>CY</span></h2>
 
     <div class="links">
       <a href="#">Features</a>
