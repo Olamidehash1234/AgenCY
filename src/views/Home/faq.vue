@@ -9,7 +9,13 @@
             </div>
 
             <div class="content">
-                <div class="card" v-for="(faq, index) in faqs" :key="index" @click="toggleFAQ(index, $event)">
+                <div
+                    class="card"
+                    v-for="(faq, index) in faqs"
+                    :key="index"
+                    @click="toggleFAQ(index, $event)"
+                    :class="{ open: faq.open }"
+                >
                     <div class="top">
                         <p :class="{ active: faq.open }">{{ faq.question }}</p>
                         <button>
@@ -37,45 +43,45 @@ export default {
         return {
             faqs: [
                 {
-                    question: "How does Boltcliq assess candidates?",
+                    question: "What services does AgenCY offer?",
                     answer:
-                        "Every candidate is screened for both technical proficiency and alignment with your company’s values, ensuring a perfect fit with your team.",
+                        "AgenCY specializes in innovative design solutions, including UI/UX design, branding, and tailored design strategies for technology firms and growing businesses.",
                     open: false,
                 },
                 {
-                    question: "What roles can Boltcliq help us fill?",
+                    question: "Who can benefit from AgenCY's services?",
                     answer:
-                        "Boltcliq specializes in tech roles like software engineering, web development, cybersecurity, DevOps, and more. Whether you're seeking entry-level or senior professionals, we connect you with talent tailored to your requirements.",
+                        "We primarily cater to tech startups, SaaS companies, and emerging businesses looking to elevate their visual identity and stand out in competitive markets.",
                     open: false,
                 },
                 {
-                    question: "How quickly can we expect to fill a position?",
+                    question: "How is AgenCY different from other design agencies?",
                     answer:
-                        "Our recruitment process allows us to match companies with candidates easily and fast, typically within 3-5 days, depending on the role’s requirements.",
+                        "Unlike traditional agencies, we prioritize unique, forward-thinking designs that break away from conventional aesthetics to help your business make a lasting impression.",
                     open: false,
                 },
                 {
-                    question: "What types of placements does Boltcliq offer?",
+                    question: "What is the typical project timeline?",
                     answer:
-                        "We provide flexible recruitment solutions, including contract, contract-to-hire, and permanent placements.  This helps you to find the right candidate based on your company's needs and goals.",
+                        "Timelines depend on the project's scope, but most design projects are completed within 2-6 weeks. We ensure an efficient yet thorough process tailored to your needs.",
                     open: false,
                 },
                 {
-                    question: "What types of placements does Boltcliq offer?",
+                    question: "Can I request revisions during the design process?",
                     answer:
-                        "We provide flexible recruitment solutions, including contract, contract-to-hire, and permanent placements.  This helps you to find the right candidate based on your company's needs and goals.",
+                        "Yes, we work closely with you throughout the process and provide opportunities for revisions to ensure the final design aligns with your vision.",
                     open: false,
                 },
                 {
-                    question: "What types of placements does Boltcliq offer?",
+                    question: "How do we get started with AgenCY?",
                     answer:
-                        "We provide flexible recruitment solutions, including contract, contract-to-hire, and permanent placements.  This helps you to find the right candidate based on your company's needs and goals.",
+                        "Simply reach out to us via our contact form or email, and we’ll schedule a consultation to understand your design needs and project goals.",
                     open: false,
                 },
                 {
-                    question: "What types of placements does Boltcliq offer?",
+                    question: "What industries do you specialize in?",
                     answer:
-                        "We provide flexible recruitment solutions, including contract, contract-to-hire, and permanent placements.  This helps you to find the right candidate based on your company's needs and goals.",
+                        "Our focus is primarily on the technology sector, but we are open to collaborating with businesses from other industries looking for innovative design solutions.",
                     open: false,
                 },
             ],
@@ -100,14 +106,6 @@ export default {
     margin-top: 40px;
 }
 
-.container h1 {
-    text-align: center !important;
-    font-weight: 700 !important;
-    color: #fff;
-    margin-bottom: 20px;
-    margin-top: 120px;
-}
-
 .header {
     text-align: center !important;
     margin-bottom: 10px;
@@ -130,7 +128,7 @@ export default {
     font-size: 40px;
     margin-bottom: 0;
     font-weight: 300;
-    color: #fff
+    color: #fff;
 }
 
 .content {
@@ -153,6 +151,11 @@ export default {
     transition: background-color 0.3s ease;
 }
 
+/* Add background color when FAQ card is open */
+.card.open {
+    background-color: #161616;
+}
+
 .card .top {
     width: 100%;
     display: flex;
@@ -171,7 +174,6 @@ export default {
 
 .card .top p.active {
     color: #ddff00;
-    /* Change color to #DDFF00 when active */
 }
 
 .card .top img {
