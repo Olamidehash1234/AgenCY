@@ -1,23 +1,19 @@
 <template>
     <main>
         <div class="container">
-            <h1 class="text">Frequently Asked Questions</h1>
+            <div class="header">
+                <h3 class="small-title">FAQs</h3>
+                <h2 class="main-title">
+                    We've got the answers
+                </h2>
+            </div>
 
             <div class="content">
-                <div 
-                    class="card" 
-                    v-for="(faq, index) in faqs" 
-                    :key="index" 
-                    @click="toggleFAQ(index, $event)"
-                >
+                <div class="card" v-for="(faq, index) in faqs" :key="index" @click="toggleFAQ(index, $event)">
                     <div class="top">
                         <p :class="{ active: faq.open }">{{ faq.question }}</p>
                         <button>
-                            <img 
-                                :class="{ rotate: faq.open }" 
-                                src="../../assets/icons/faq/plus.png" 
-                                alt="" 
-                            />
+                            <img :class="{ rotate: faq.open }" src="../../assets/icons/faq/plus.png" alt="plus icon" />
                         </button>
                     </div>
 
@@ -112,15 +108,38 @@ export default {
     margin-top: 120px;
 }
 
+.header {
+    text-align: center !important;
+    margin-bottom: 10px;
+}
+
+.small-title {
+    color: #DDFF00;
+    font-size: 14px;
+    border: 1px solid #3d3f3c;
+    border-radius: 50px;
+    background-color: #272626;
+    font-weight: 200 !important;
+    padding: 10px !important;
+    margin-bottom: 10px;
+    margin-right: 42%;
+    margin-left: 42%;
+}
+
+.main-title {
+    font-size: 40px;
+    margin-bottom: 0;
+    font-weight: 300;
+    color: #fff
+}
+
 .content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px 20px;
-    align-items: start; /* Ensures cards align to the top */
-    /* grid-auto-rows: min-content; */
+    align-items: start;
     margin-bottom: 60px;
 }
-
 
 .card {
     cursor: pointer;
@@ -152,7 +171,8 @@ export default {
 }
 
 .card .top p.active {
-    color: #DDFF00; /* Change color to #DDFF00 when active */
+    color: #ddff00;
+    /* Change color to #DDFF00 when active */
 }
 
 .card .top img {
@@ -163,9 +183,10 @@ export default {
     transform: rotate(45deg);
 }
 
-.bottom p, .bottom ul {
+.bottom p,
+.bottom ul {
     color: #696969;
-    font-size: 12px;
+    font-size: 14px;
     text-align: left;
 }
 
@@ -173,5 +194,38 @@ export default {
     color: #fff;
     list-style: none;
     margin-bottom: 10px;
+}
+
+@media (max-width:1024px){
+    .content{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .small-title {
+        margin-right: 42%;
+        margin-left: 42%;
+        margin-bottom: 15px;
+        font-size: 22px;
+    }
+
+    .main-title {
+        font-size: 36px;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width:768px){
+    .small-title {
+        margin-right: 43%;
+        margin-left: 43%;
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+
+    .main-title {
+        font-size: 18px;
+        margin-bottom: 0;
+    }
 }
 </style>

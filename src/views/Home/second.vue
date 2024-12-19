@@ -89,7 +89,7 @@ export default {
     background-color: #272626;
     font-weight: 200 !important;
     padding: 10px !important;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     margin-right: 42%;
     margin-left: 42%;
 }
@@ -162,8 +162,8 @@ export default {
     }
 
     .small-title {
-        margin-right: 20%;
-        margin-left: 20%;
+        margin-right: 32%;
+        margin-left: 32%;
         margin-bottom: 15px;
         font-size: 22px;
     }
@@ -182,8 +182,8 @@ export default {
     }
 
     .small-title {
-        margin-right: 20%;
-        margin-left: 20%;
+        margin-right: 32%;
+        margin-left: 32%;
         margin-bottom: 15px;
         font-size: 16px;
     }

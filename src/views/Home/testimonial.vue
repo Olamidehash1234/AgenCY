@@ -107,7 +107,7 @@ const testimonials = reactive([
     background-color: #272626;
     font-weight: 200 !important;
     padding: 10px !important;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     margin-right: 42%;
     margin-left: 42%;
 }
@@ -184,8 +184,8 @@ const testimonials = reactive([
     }
 
     .small-title {
-        margin-right: 20%;
-        margin-left: 20%;
+        margin-right: 37%;
+        margin-left: 37%;
         margin-bottom: 15px;
         font-size: 22px;
     }
