@@ -150,7 +150,6 @@ export default {
     padding: 22px;
     border: 1px solid #3d3f3c;
     border-radius: 20px;
-    background-color: #1c1c1c;
     transition: background-color 0.3s ease;
 }
 
