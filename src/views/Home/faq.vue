@@ -122,8 +122,8 @@ export default {
     font-weight: 200 !important;
     padding: 10px !important;
     margin-bottom: 10px;
-    margin-right: 42%;
-    margin-left: 42%;
+    margin-right: 46%;
+    margin-left: 46%;
 }
 
 .main-title {
