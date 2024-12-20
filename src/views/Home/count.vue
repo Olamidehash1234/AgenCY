@@ -102,6 +102,8 @@ export default {
 <style scoped>
 /* General container styles */
 .stats-section {
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 60px 110px;
     border: 1px solid #3d3f3c;
     border-radius: 28px;

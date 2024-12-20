@@ -103,6 +103,8 @@ export default {
     padding-top: 0 !important;
     align-items: left;
     width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
     padding-left: 10px;
     padding-right: 10px;
     margin-top: 40px;
