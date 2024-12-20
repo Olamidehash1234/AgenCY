@@ -103,12 +103,11 @@ export default {
 /* General container styles */
 .stats-section {
     max-width: 1200px;
-    margin: 0 auto;
+    margin-left: 60px;
+    margin-right: 60px;
     padding: 60px 110px;
     border: 1px solid #3d3f3c;
     border-radius: 28px;
-    margin-left: 60px;
-    margin-right: 60px;
     box-shadow: 0px 10px 20px rgba(46, 45, 45, 0.4);
 }
 

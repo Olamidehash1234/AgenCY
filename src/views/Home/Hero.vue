@@ -99,9 +99,11 @@ const email = ref('')
 
 .form-container {
     display: flex;
-    gap: 0.5rem;
     justify-content: center;
     max-width: 500px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 7px;
     margin: 0 auto;
 }
 
@@ -110,8 +112,9 @@ input {
     padding: 0.75rem 1.5rem;
     border: none;
     border-radius: 4px;
-    background: rgba(255, 255, 255, 0.1);
+    background: transparent;
     color: white;
+    outline: none;
     font-size: 0.9rem;
 }
 

@@ -7,6 +7,7 @@
       <testimonial />
       <faq />
       <count />
+      <transform/>
     </div>
   </template>
   
@@ -17,6 +18,7 @@ import process from '../Home/process.vue';
 import testimonial from '../Home/testimonial.vue'
 import faq from '../Home/faq.vue'
 import count from '../Home/count.vue'
+import transform from '../Home/transform.vue';
 
   export default {
     name: 'MainLayout',
@@ -26,7 +28,8 @@ import count from '../Home/count.vue'
       process,
       testimonial,
       faq,
-      count
+      count,
+      transform
     },
     data() {
       return {

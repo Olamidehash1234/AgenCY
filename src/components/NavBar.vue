@@ -76,6 +76,7 @@ nav .links {
   gap: 30px;
   padding: 10px 30px 10px 30px;
   border-radius: 20px;
+  box-shadow: 10px 10px 20px rgba(46, 45, 45, 0.4);
   border: 0.5px solid #40413f;
 }
 
