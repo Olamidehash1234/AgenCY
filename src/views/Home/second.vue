@@ -182,8 +182,8 @@ export default {
     }
 
     .small-title {
-        margin-right: 32%;
-        margin-left: 32%;
+        margin-right: 20%;
+        margin-left: 20%;
         margin-bottom: 15px;
         font-size: 16px;
     }

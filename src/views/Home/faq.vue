@@ -103,6 +103,8 @@ export default {
     padding-top: 0 !important;
     align-items: left;
     width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-top: 40px;
 }
 
@@ -151,7 +153,6 @@ export default {
     transition: background-color 0.3s ease;
 }
 
-/* Add background color when FAQ card is open */
 .card.open {
     background-color: #161616;
 }
@@ -201,6 +202,7 @@ export default {
     .content{
         display: grid;
         grid-template-columns: 1fr;
+        margin-bottom: 0;
     }
 
     .small-title {
@@ -218,8 +220,8 @@ export default {
 
 @media (max-width:768px){
     .small-title {
-        margin-right: 43%;
-        margin-left: 43%;
+        margin-right: 39%;
+        margin-left: 39;
         margin-bottom: 15px;
         font-size: 16px;
     }
